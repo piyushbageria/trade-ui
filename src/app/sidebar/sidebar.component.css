@@ -1,0 +1,18 @@
+nav { 
+  	flex: 0 0 auto;
+}
+a {
+	background-color: #eee;
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+a:hover {
+    background-color: #ccc;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}

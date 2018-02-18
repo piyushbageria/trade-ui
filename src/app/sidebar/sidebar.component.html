@@ -1,0 +1,11 @@
+ <nav role='navigation'>
+    <ul *ngIf="isActiveRoute('watcher')">
+      <li><a routerLink="/watcher/watch1">watch1</a></li>
+      <li><a routerLink="/watcher/watch2">watch2</a></li>
+    </ul>
+
+    <ul *ngIf="isActiveRoute('portfolio')">
+      <li><a routerLink="/portfolio/port1">port1</a></li>
+      <li><a routerLink="/portfolio/port2">port2</a></li>
+    </ul>
+</nav>
